@@ -1,0 +1,27 @@
+---
+title: "chapter_02"
+author: "Yousuf Ali"
+date: "4/29/2020"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+Install all the required packages to follow Mastering shiny book
+
+```{r message=FALSE, include=FALSE}
+#install.packages(c("gapminder", "ggforce", "openintro", "shiny", "shinyFeedback", "shinythemes", "tidyverse", "vroom", "waiter", "zeallot"))
+
+```
+
+Use a keyboard shortcut: __Cmd/Ctrl + Shift + Enter__ for running the app  
+
+if you’re not using RStudio, you can source() the whole document, or call
+shiny::runApp() with the path to the directory containing app.R .
+
+
